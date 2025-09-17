@@ -64,10 +64,10 @@ with st.sidebar:
     tone = st.selectbox(
         "Tone", ["Professional", "Friendly", "Witty", "Bold", "Casual"]
     )
-    recipient = st.text_input("Recipient (Name or Title)", "Dylan Field, CEO Figma")
-    sender = st.text_input("Sender (Your Name)", "Unnati")
-    company = st.text_input("Your Company/Org", "Paysecure")
-    goal = st.text_area("Goal / Pitch", "Want to explore a partnership for payments in SaaS tools")
+    recipient = st.text_input("Recipient (Name or Title)", "")
+    sender = st.text_input("Sender (Your Name)", "")
+    company = st.text_input("Your Company/Org", "")
+    goal = st.text_area("Goal / Pitch", "")
     extra = st.text_area("Extra Context (optional)", "")
 
 if st.button("✨ Generate Email"):
